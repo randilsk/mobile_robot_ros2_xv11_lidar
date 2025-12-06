@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- 
+    Launch file for XV-11 Lidar driver (XML format).
+    
+    This is an alternative to the Python launch file. Use if you prefer XML.
+    
+    Usage:
+      ros2 launch xv11_lidar_python xv11_lidar.launch.xml
+      
+      With custom parameters:
+      ros2 launch xv11_lidar_python xv11_lidar.launch.xml port:=/dev/ttyAMA0 frame_id:=xiaomi_lidar
+  -->
+
+  <!-- Declare arguments with defaults -->
+  <arg name="port" default="/dev/ttyUSB0" description="Serial port for the lidar device"/>
+  <arg name="frame_id" default="xv11_lidar" description="TF frame ID for the laser scan"/>
+  <arg name="range_min" default="0.06" description="Minimum range in meters"/>
+  <arg name="range_max" default="13.0" description="Maximum range in meters"/>
+
+  <!-- Launch the xv11_lidar node -->
+  <node pkg="xv11_lidar_python" exec="xv11_lidar" name="xv11_lidar" output="screen">
+    <param name="port" value="$(arg port)"/>
+    <param name="frame_id" value="$(arg frame_id)"/>
+    <param name="range_min" value="$(arg range_min)"/>
+    <param name="range_max" value="$(arg range_max)"/>
+  </node>
+
+</launch>
