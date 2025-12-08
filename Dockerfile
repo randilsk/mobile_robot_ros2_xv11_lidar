@@ -6,22 +6,30 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     python3-colcon-common-extensions \
     python3-rosdep \
+    python3-serial \
+    ros-humble-xacro \
     ros-humble-sensor-msgs \
+    ros-humble-ros2-control \
+    ros-humble-ros2-controllers \
+    ros-humble-controller-manager \
+    ros-humble-hardware-interface \
+    ros-humble-joint-state-broadcaster \
+    ros-humble-diff-drive-controller \
+    ros-humble-robot-state-publisher \
+    libserial-dev \
     && rm -rf /var/lib/apt/lists/*
-
-# Install pyserial for XV11 lidar
-RUN pip3 install pyserial
 
 # Create workspace directory
 WORKDIR /workspace
 
 # Copy source files
 COPY src/ /workspace/src/
+COPY launch/ /workspace/launch/
 
-# Install dependencies using rosdep
+# Install dependencies using rosdep (skip unavailable packages)
 RUN . /opt/ros/humble/setup.sh && \
     rosdep update && \
-    rosdep install --from-paths src --ignore-src -r -y
+    rosdep install --from-paths src --ignore-src -r -y || true
 
 # Build the workspace
 RUN . /opt/ros/humble/setup.sh && \

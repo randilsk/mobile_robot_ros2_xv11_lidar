@@ -130,6 +130,49 @@ docker-compose logs
 docker-compose build --no-cache
 ```
 
+## What's Included
+
+The Docker image includes all necessary dependencies:
+
+- **ROS2 Humble** base packages
+- **ros2_control** framework and controllers
+- **libserial-dev** for Arduino communication
+- **pyserial** for XV11 lidar
+- All 4 workspace packages:
+  - `diffdrive_arduino` - Hardware interface for Arduino
+  - `my_bot` - Robot URDF/description
+  - `serial_motor_demo` - Motor control demonstration
+  - `xv11_lidar_python` - XV11 lidar driver
+
+## Recent Updates (Dec 2025)
+
+✅ **Fixed ros2_control configuration** in `my_bot` package:
+- Corrected state interface order (position before velocity)
+- Fixed hardware plugin name to `DiffDriveArduinoHardware`
+- Updated parameter name to `timeout_ms`
+
+✅ **Enhanced Dockerfile** with all ros2_control dependencies
+
+## Quick Deploy to Raspberry Pi
+
+Use the provided deployment script:
+
+```bash
+./deploy_to_pi.sh
+```
+
+Or manually:
+```bash
+# Build image
+docker-compose build
+
+# Start container
+docker-compose up -d
+
+# Access container
+docker-compose exec ros2 bash
+```
+
 ## Notes
 
 - The workspace is mounted as a volume, so changes to `src/` persist
