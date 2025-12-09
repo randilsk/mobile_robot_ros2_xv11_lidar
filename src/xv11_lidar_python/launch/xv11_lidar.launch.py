@@ -59,10 +59,21 @@ def generate_launch_description():
         output='screen',  # Show node output in terminal
     )
 
+    # Static transform publisher: laser_frame -> frame_id (xv11_lidar)
+    # This creates the TF link that RViz needs to display lidar data
+    static_tf_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='laser_frame_broadcaster',
+        arguments=['0', '0', '0', '0', '0', '0', 'laser_frame', LaunchConfiguration('frame_id')],
+        output='screen',
+    )
+
     return LaunchDescription([
         port_arg,
         frame_id_arg,
         range_min_arg,
         range_max_arg,
         xv11_node,
+        static_tf_node,
     ])
