@@ -29,7 +29,7 @@ def generate_launch_description():
     
     frame_id_arg = DeclareLaunchArgument(
         'frame_id',
-        default_value='laser_frame',
+        default_value='xv11_lidar',
         description='TF frame ID for the laser scan'
     )
     

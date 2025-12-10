@@ -28,7 +28,7 @@ def generate_launch_description():
         ]),
         launch_arguments={
             'port': '/dev/ttyUSB0',  # Adjust to your lidar's serial port
-            'frame_id': 'laser_frame'  # Match the URDF frame name
+            'frame_id': 'xv11_lidar'  # Match the URDF frame name
         }.items()
     )
 
