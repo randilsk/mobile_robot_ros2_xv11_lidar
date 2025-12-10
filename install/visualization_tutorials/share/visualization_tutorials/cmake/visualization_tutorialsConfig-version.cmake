@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws/build/visualization_tutorials/ament_cmake_core/visualization_tutorialsConfig-version.cmake

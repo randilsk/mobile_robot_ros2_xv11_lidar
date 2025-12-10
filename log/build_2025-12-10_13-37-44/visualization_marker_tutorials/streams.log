@@ -1,0 +1,28 @@
+[0.038s] Invoking command in '/home/ubuntu/robot_ws/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/visualization_marker_tutorials -- -j16 -l16
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target points_and_lines[0m
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target basic_shapes[0m
+[0.401s] [ 50%] Built target points_and_lines
+[0.402s] [100%] Built target basic_shapes
+[0.669s] Invoked command in '/home/ubuntu/robot_ws/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/visualization_marker_tutorials -- -j16 -l16
+[0.670s] Invoking command in '/home/ubuntu/robot_ws/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/visualization_marker_tutorials
+[0.684s] -- Install configuration: ""
+[0.684s] -- Execute custom install script
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_marker_tutorials
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.sh
+[0.684s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.dsv
+[0.685s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.sh
+[0.685s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.dsv
+[0.685s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.bash
+[0.685s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.sh
+[0.686s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.zsh
+[0.687s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.dsv
+[0.687s] -- Symlinking: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv
+[0.693s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/ament_index/resource_index/packages/visualization_marker_tutorials
+[0.693s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.694s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+[0.694s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+[0.694s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.xml
+[0.757s] Invoked command in '/home/ubuntu/robot_ws/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/visualization_marker_tutorials

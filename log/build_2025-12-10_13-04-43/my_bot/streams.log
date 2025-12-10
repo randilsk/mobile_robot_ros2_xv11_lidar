@@ -1,0 +1,68 @@
+[0.215s] Invoking command in '/home/ubuntu/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/my_bot
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.309s] -- The CXX compiler identification is GNU 11.4.0
+[0.315s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.680s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.782s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.783s] -- Added test 'lint_cmake' to check CMake code style
+[0.784s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.786s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done
+[0.793s] -- Generating done
+[0.795s] -- Build files have been written to: /home/ubuntu/robot_ws/build/my_bot
+[0.800s] Invoked command in '/home/ubuntu/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robot_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/my_bot
+[0.801s] Invoking command in '/home/ubuntu/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/my_bot -- -j16 -l16
+[0.838s] Invoked command in '/home/ubuntu/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/my_bot -- -j16 -l16
+[0.849s] Invoking command in '/home/ubuntu/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/my_bot
+[0.855s] -- Install configuration: ""
+[0.856s] -- Execute custom install script
+[0.856s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.865s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.874s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[0.883s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.892s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[0.902s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/main.rviz
+[0.910s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.919s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[0.928s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.936s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.945s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.954s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.962s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.970s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.979s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[0.988s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[0.996s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.006s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.015s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/launch/xv11_lidar.launch.py
+[1.024s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.032s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.040s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.049s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.057s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.066s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.074s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.083s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.092s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.100s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.109s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.118s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.127s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/package.dsv
+[1.136s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.145s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.154s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.163s] -- Symlinking: /home/ubuntu/robot_ws/install/my_bot/share/my_bot/package.xml
+[1.173s] Invoked command in '/home/ubuntu/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/my_bot

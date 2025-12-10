@@ -1,0 +1,11 @@
+/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp: In member function ‘virtual void rviz_plugin_tutorials::PlantFlagTool::onInitialize()’:
+/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp:92:45: error: invalid initialization of reference of type ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’} from expression of type ‘resource_retriever::Retriever*’
+   92 |   if (!rviz_rendering::loadMeshFromResource(&this->retriever_, flag_resource_)) {
+      |                                             ^~~~~~~~~~~~~~~~~
+In file included from /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp:44:
+/opt/ros/humble/include/rviz_rendering/rviz_rendering/mesh_loader.hpp:42:56: note: in passing argument 1 of ‘Ogre::MeshPtr rviz_rendering::loadMeshFromResource(const string&)’
+   42 | Ogre::MeshPtr loadMeshFromResource(const std::string & resource_path);
+      |                                    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/rviz_plugin_tutorials.dir/build.make:132: CMakeFiles/rviz_plugin_tutorials.dir/src/plant_flag_tool.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rviz_plugin_tutorials.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

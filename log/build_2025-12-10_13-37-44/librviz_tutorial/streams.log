@@ -1,0 +1,27 @@
+[0.040s] Invoking command in '/home/ubuntu/robot_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/librviz_tutorial -- -j16 -l16
+[0.408s] [ 20%] [34m[1mAutomatic MOC for target myviz[0m
+[0.409s] [ 20%] Built target myviz_autogen
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target myviz[0m
+[0.409s] [100%] Built target myviz
+[0.685s] Invoked command in '/home/ubuntu/robot_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/librviz_tutorial -- -j16 -l16
+[0.687s] Invoking command in '/home/ubuntu/robot_ws/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/librviz_tutorial
+[0.724s] -- Install configuration: ""
+[0.724s] -- Execute custom install script
+[0.724s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/lib/librviz_tutorial/myviz
+[0.724s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+[0.724s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/ament_index/resource_index/parent_prefix_path/librviz_tutorial
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.dsv
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.sh
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/environment/path.dsv
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.bash
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.sh
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.zsh
+[0.725s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/local_setup.dsv
+[0.726s] -- Symlinking: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/package.dsv
+[0.729s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/ament_index/resource_index/packages/librviz_tutorial
+[0.729s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.729s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig.cmake
+[0.729s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig-version.cmake
+[0.733s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/librviz_tutorial/share/librviz_tutorial/package.xml
+[0.842s] Invoked command in '/home/ubuntu/robot_ws/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/xv11_lidar_python:/home/ubuntu/robot_ws/install/serial_motor_demo:/home/ubuntu/robot_ws/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robot_ws/build/librviz_tutorial

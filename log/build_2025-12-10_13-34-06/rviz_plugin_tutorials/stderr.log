@@ -1,0 +1,12 @@
+[01m[K/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp:[m[K In member function ‘[01m[Kvirtual void rviz_plugin_tutorials::PlantFlagTool::onInitialize()[m[K’:
+[01m[K/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp:92:45:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’} from expression of type ‘[01m[Kresource_retriever::Retriever*[m[K’
+   92 |   if (!rviz_rendering::loadMeshFromResource([01;31m[K&this->retriever_[m[K, flag_resource_)) {
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/plant_flag_tool.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/rviz_rendering/rviz_rendering/mesh_loader.hpp:42:56:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[KOgre::MeshPtr rviz_rendering::loadMeshFromResource(const string&)[m[K’
+   42 | Ogre::MeshPtr loadMeshFromResource([01;36m[Kconst std::string & resource_path[m[K);
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rviz_plugin_tutorials.dir/build.make:132: CMakeFiles/rviz_plugin_tutorials.dir/src/plant_flag_tool.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rviz_plugin_tutorials.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
