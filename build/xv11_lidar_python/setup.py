@@ -1,1 +1,0 @@
-/home/ubuntu/robot_ws/src/xv11_lidar_python/setup.py

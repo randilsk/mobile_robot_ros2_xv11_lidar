@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/src/my_bot/launch/joystick.launch.py
+/home/ubuntu/dev_Ws/src/my_bot/launch/joystick.launch.py

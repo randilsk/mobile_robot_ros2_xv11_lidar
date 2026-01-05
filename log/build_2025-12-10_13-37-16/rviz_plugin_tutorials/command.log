@@ -1,4 +1,0 @@
-Invoking command in '/home/ubuntu/robot_ws/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/rviz_plugin_tutorials
-Invoked command in '/home/ubuntu/robot_ws/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/rviz_plugin_tutorials
-Invoking command in '/home/ubuntu/robot_ws/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/rviz_plugin_tutorials -- -j16 -l16
-Invoked command in '/home/ubuntu/robot_ws/build/rviz_plugin_tutorials' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robot_ws/build/rviz_plugin_tutorials -- -j16 -l16

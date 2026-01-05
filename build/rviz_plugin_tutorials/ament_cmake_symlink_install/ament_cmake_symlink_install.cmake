@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/${destination}")
+      set(destination "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,67 +311,67 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(FILES "plugin_description.xml" "DESTINATION" "share/rviz_plugin_tutorials/")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "plugin_description.xml" "DESTINATION" "share/rviz_plugin_tutorials/")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "plugin_description.xml" "DESTINATION" "share/rviz_plugin_tutorials/")
 
 # install("TARGETS" "rviz_plugin_tutorials" "ARCHIVE_DESTINATION" "lib/rviz_plugin_tutorials" "LIBRARY_DESTINATION" "lib/rviz_plugin_tutorials" "RUNTIME_DESTINATION" "lib/rviz_plugin_tutorials")
-include("/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "media/" "DESTINATION" "share/rviz_plugin_tutorials/media")
-ament_cmake_symlink_install_directory("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" DIRECTORY "media/" "DESTINATION" "share/rviz_plugin_tutorials/media")
+ament_cmake_symlink_install_directory("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" DIRECTORY "media/" "DESTINATION" "share/rviz_plugin_tutorials/media")
 
 # install(DIRECTORY "icons/" "DESTINATION" "share/rviz_plugin_tutorials/icons")
-ament_cmake_symlink_install_directory("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" DIRECTORY "icons/" "DESTINATION" "share/rviz_plugin_tutorials/icons")
+ament_cmake_symlink_install_directory("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" DIRECTORY "icons/" "DESTINATION" "share/rviz_plugin_tutorials/icons")
 
 # install(PROGRAMS "scripts/send_test_msgs.py" "DESTINATION" "lib/rviz_plugin_tutorials")
-ament_cmake_symlink_install_programs("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" PROGRAMS "scripts/send_test_msgs.py" "DESTINATION" "lib/rviz_plugin_tutorials")
+ament_cmake_symlink_install_programs("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" PROGRAMS "scripts/send_test_msgs.py" "DESTINATION" "lib/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rviz_plugin_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rviz_plugin_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rviz_plugin_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_common__pluginlib__plugin")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_common__pluginlib__plugin")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_common__pluginlib__plugin")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_common__pluginlib__plugin")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_ogre_media_exports")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_ogre_media_exports")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_ogre_media_exports")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials" "DESTINATION" "share/ament_index/resource_index/rviz_ogre_media_exports")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
 
-# install(FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake" "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig-version.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake" "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig-version.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
+# install(FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake" "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig-version.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake" "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig-version.cmake" "DESTINATION" "share/rviz_plugin_tutorials/cmake")
 
-# install(FILES "/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/package.xml" "DESTINATION" "share/rviz_plugin_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/package.xml" "DESTINATION" "share/rviz_plugin_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/package.xml" "DESTINATION" "share/rviz_plugin_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials" FILES "/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/package.xml" "DESTINATION" "share/rviz_plugin_tutorials")

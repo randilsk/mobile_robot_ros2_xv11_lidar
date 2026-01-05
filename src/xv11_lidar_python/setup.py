@@ -21,7 +21,6 @@ setup(
     maintainer_email='niklas@pirnay.com',
     description='A python driver for the lidar sensors that use the xv_11 firmware version 2, which are prominent in vacuum cleaning robots.',
     license='MIT License',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'xv11_lidar = xv11_lidar_python.xv11_lidar_publisher:main'

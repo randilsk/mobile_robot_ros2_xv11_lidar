@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake
+/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_core/rviz_plugin_tutorialsConfig.cmake

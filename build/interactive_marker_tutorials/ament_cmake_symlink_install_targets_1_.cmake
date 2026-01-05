@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/libpong_library.so" "TARGETS" "pong_library" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/libpong_library.so" "TARGETS" "pong_library" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

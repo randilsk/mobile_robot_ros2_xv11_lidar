@@ -1,5 +1,5 @@
 CMakeFiles/myviz.dir/src/main.cpp.o: \
- /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial/src/main.cpp \
+ /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial/src/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -697,7 +697,7 @@ CMakeFiles/myviz.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction_iface.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/visibility_control.hpp \
- /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
+ /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \

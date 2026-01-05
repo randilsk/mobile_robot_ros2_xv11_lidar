@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials
+# Install script for directory: /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media")
+   "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/ubuntu/robot_ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials" TYPE DIRECTORY FILES "/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/media" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "/home/ubuntu/dev_Ws/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials" TYPE DIRECTORY FILES "/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/media" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 CMakeFiles/myviz.dir/src/myviz.cpp.o: \
- /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial/src/myviz.cpp \
+ /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial/src/myviz.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
+ /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/robot_ws/build/rviz_plugin_tutorials
+CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials
 
 # Utility rule file for rviz_plugin_tutorials_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/rviz_plugin_tutorials_uninstall.dir/compiler_depend.make
 include CMakeFiles/rviz_plugin_tutorials_uninstall.dir/progress.make
 
 CMakeFiles/rviz_plugin_tutorials_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 rviz_plugin_tutorials_uninstall: CMakeFiles/rviz_plugin_tutorials_uninstall
 rviz_plugin_tutorials_uninstall: CMakeFiles/rviz_plugin_tutorials_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/rviz_plugin_tutorials_uninstall.dir/clean:
 .PHONY : CMakeFiles/rviz_plugin_tutorials_uninstall.dir/clean
 
 CMakeFiles/rviz_plugin_tutorials_uninstall.dir/depend:
-	cd /home/ubuntu/robot_ws/build/rviz_plugin_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/robot_ws/build/rviz_plugin_tutorials /home/ubuntu/robot_ws/build/rviz_plugin_tutorials /home/ubuntu/robot_ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rviz_plugin_tutorials_uninstall.dir/depend
 

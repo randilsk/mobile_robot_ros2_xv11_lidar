@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/robot_ws/build/librviz_tutorial
+CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/librviz_tutorial
 
 # Utility rule file for librviz_tutorial_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/librviz_tutorial_uninstall.dir/compiler_depend.make
 include CMakeFiles/librviz_tutorial_uninstall.dir/progress.make
 
 CMakeFiles/librviz_tutorial_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/robot_ws/build/librviz_tutorial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/dev_Ws/build/librviz_tutorial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 librviz_tutorial_uninstall: CMakeFiles/librviz_tutorial_uninstall
 librviz_tutorial_uninstall: CMakeFiles/librviz_tutorial_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/librviz_tutorial_uninstall.dir/clean:
 .PHONY : CMakeFiles/librviz_tutorial_uninstall.dir/clean
 
 CMakeFiles/librviz_tutorial_uninstall.dir/depend:
-	cd /home/ubuntu/robot_ws/build/librviz_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial /home/ubuntu/robot_ws/src/visualization_tutorials/librviz_tutorial /home/ubuntu/robot_ws/build/librviz_tutorial /home/ubuntu/robot_ws/build/librviz_tutorial /home/ubuntu/robot_ws/build/librviz_tutorial/CMakeFiles/librviz_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/dev_Ws/build/librviz_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial /home/ubuntu/dev_Ws/src/visualization_tutorials/librviz_tutorial /home/ubuntu/dev_Ws/build/librviz_tutorial /home/ubuntu/dev_Ws/build/librviz_tutorial /home/ubuntu/dev_Ws/build/librviz_tutorial/CMakeFiles/librviz_tutorial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/librviz_tutorial_uninstall.dir/depend
 

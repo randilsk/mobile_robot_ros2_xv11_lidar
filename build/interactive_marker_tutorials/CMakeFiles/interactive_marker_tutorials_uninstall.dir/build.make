@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/robot_ws/build/interactive_marker_tutorials
+CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/interactive_marker_tutorials
 
 # Utility rule file for interactive_marker_tutorials_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/interactive_marker_tutorials_uninstall.dir/compiler_depend.ma
 include CMakeFiles/interactive_marker_tutorials_uninstall.dir/progress.make
 
 CMakeFiles/interactive_marker_tutorials_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 interactive_marker_tutorials_uninstall: CMakeFiles/interactive_marker_tutorials_uninstall
 interactive_marker_tutorials_uninstall: CMakeFiles/interactive_marker_tutorials_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/interactive_marker_tutorials_uninstall.dir/clean:
 .PHONY : CMakeFiles/interactive_marker_tutorials_uninstall.dir/clean
 
 CMakeFiles/interactive_marker_tutorials_uninstall.dir/depend:
-	cd /home/ubuntu/robot_ws/build/interactive_marker_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials /home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials /home/ubuntu/robot_ws/build/interactive_marker_tutorials /home/ubuntu/robot_ws/build/interactive_marker_tutorials /home/ubuntu/robot_ws/build/interactive_marker_tutorials/CMakeFiles/interactive_marker_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/dev_Ws/build/interactive_marker_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials /home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials /home/ubuntu/dev_Ws/build/interactive_marker_tutorials /home/ubuntu/dev_Ws/build/interactive_marker_tutorials /home/ubuntu/dev_Ws/build/interactive_marker_tutorials/CMakeFiles/interactive_marker_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interactive_marker_tutorials_uninstall.dir/depend
 

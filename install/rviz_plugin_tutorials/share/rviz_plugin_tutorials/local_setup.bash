@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash
+/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.bash

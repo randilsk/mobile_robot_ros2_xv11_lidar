@@ -1,11 +1,11 @@
 {
   "package_name": "serial_motor_demo_msgs",
-  "output_dir": "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_typesupport_introspection_c/serial_motor_demo_msgs",
+  "output_dir": "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_typesupport_introspection_c/serial_motor_demo_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl",
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl",
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl"
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl",
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl",
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
@@ -16,8 +16,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorCommand.idl",
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl",
-    "/home/ubuntu/robot_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl"
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorCommand.idl",
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl",
+    "/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl"
   ]
 }

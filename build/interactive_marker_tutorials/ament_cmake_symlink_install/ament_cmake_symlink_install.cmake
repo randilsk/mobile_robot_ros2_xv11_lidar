@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/robot_ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/dev_Ws/install/interactive_marker_tutorials/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ubuntu/robot_ws/install/interactive_marker_tutorials/${destination}")
+      set(destination "/home/ubuntu/dev_Ws/install/interactive_marker_tutorials/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,61 +311,61 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "pong" "DESTINATION" "lib/interactive_marker_tutorials")
-include("/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(PROGRAMS "scripts/basic_controls.py" "scripts/cube.py" "scripts/menu.py" "scripts/simple_marker.py" "DESTINATION" "bin")
-ament_cmake_symlink_install_programs("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" PROGRAMS "scripts/basic_controls.py" "scripts/cube.py" "scripts/menu.py" "scripts/simple_marker.py" "DESTINATION" "bin")
+ament_cmake_symlink_install_programs("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" PROGRAMS "scripts/basic_controls.py" "scripts/cube.py" "scripts/menu.py" "scripts/simple_marker.py" "DESTINATION" "bin")
 
 # install("TARGETS" "pong_library" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "basic_controls" "cube" "selection" "simple_marker" "menu" "DESTINATION" "lib/interactive_marker_tutorials")
-include("/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/interactive_marker_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/interactive_marker_tutorials/environment")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/interactive_marker_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/interactive_marker_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/interactive_marker_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/interactive_marker_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/interactive_marker_tutorials")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
 
-# install(FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig.cmake" "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig-version.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig.cmake" "/home/ubuntu/robot_ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig-version.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
+# install(FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig.cmake" "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig-version.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig.cmake" "/home/ubuntu/dev_Ws/build/interactive_marker_tutorials/ament_cmake_core/interactive_marker_tutorialsConfig-version.cmake" "DESTINATION" "share/interactive_marker_tutorials/cmake")
 
-# install(FILES "/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials/package.xml" "DESTINATION" "share/interactive_marker_tutorials")
-ament_cmake_symlink_install_files("/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/robot_ws/src/visualization_tutorials/interactive_marker_tutorials/package.xml" "DESTINATION" "share/interactive_marker_tutorials")
+# install(FILES "/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials/package.xml" "DESTINATION" "share/interactive_marker_tutorials")
+ament_cmake_symlink_install_files("/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials" FILES "/home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials/package.xml" "DESTINATION" "share/interactive_marker_tutorials")

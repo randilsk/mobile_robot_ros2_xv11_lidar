@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/src/visualization_tutorials/rviz_plugin_tutorials/scripts/send_test_msgs.py
+/home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/scripts/send_test_msgs.py

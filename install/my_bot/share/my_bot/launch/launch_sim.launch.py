@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/src/my_bot/launch/launch_sim.launch.py
+/home/ubuntu/dev_Ws/src/my_bot/launch/launch_sim.launch.py

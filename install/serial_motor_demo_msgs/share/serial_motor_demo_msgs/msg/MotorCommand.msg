@@ -1,1 +1,1 @@
-/home/ubuntu/robot_ws/src/serial_motor_demo/serial_motor_demo_msgs/msg/MotorCommand.msg
+/home/ubuntu/dev_Ws/src/serial_motor_demo/serial_motor_demo_msgs/msg/MotorCommand.msg
