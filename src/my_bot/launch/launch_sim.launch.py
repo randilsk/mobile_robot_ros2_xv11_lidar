@@ -4,8 +4,9 @@ from ament_index_python.packages import get_package_share_directory
 
 
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
 
 from launch_ros.actions import Node
 
@@ -18,6 +19,14 @@ def generate_launch_description():
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
     package_name='my_bot' #<--- CHANGE ME
+
+    # Declare the world launch argument
+    world_arg = DeclareLaunchArgument(
+        'world',
+        default_value='',
+        description='Path to the Gazebo world file'
+    )
+    world = LaunchConfiguration('world')
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -37,7 +46,10 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+                    launch_arguments={
+                        'world': world,
+                        'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file
+                    }.items()
              )
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
@@ -63,6 +75,7 @@ def generate_launch_description():
 
     # Launch them all!
     return LaunchDescription([
+        world_arg,
         rsp,
         joystick,
         gazebo,

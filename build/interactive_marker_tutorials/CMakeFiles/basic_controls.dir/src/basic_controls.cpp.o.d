@@ -1,5 +1,5 @@
 CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o: \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials/src/basic_controls.cpp \
+ /home/ubuntu/dev_ws/src/visualization_tutorials/interactive_marker_tutorials/src/basic_controls.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -783,4 +783,4 @@ CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o: \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/interactive_marker_tutorials/src/./utilities.hpp
+ /home/ubuntu/dev_ws/src/visualization_tutorials/interactive_marker_tutorials/src/./utilities.hpp

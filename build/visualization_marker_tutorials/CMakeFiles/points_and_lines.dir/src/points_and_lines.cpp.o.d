@@ -1,5 +1,5 @@
 CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o: \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/visualization_marker_tutorials/src/points_and_lines.cpp \
+ /home/ubuntu/dev_ws/src/visualization_tutorials/visualization_marker_tutorials/src/points_and_lines.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

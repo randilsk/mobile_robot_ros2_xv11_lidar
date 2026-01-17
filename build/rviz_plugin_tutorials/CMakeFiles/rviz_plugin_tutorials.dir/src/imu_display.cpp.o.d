@@ -1,7 +1,7 @@
 CMakeFiles/rviz_plugin_tutorials.dir/src/imu_display.cpp.o: \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_display.cpp \
+ /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_display.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_display.hpp \
+ /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_display.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -1002,7 +1002,7 @@ CMakeFiles/rviz_plugin_tutorials.dir/src/imu_display.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QColor \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
  /opt/ros/humble/include/rviz_common/rviz_common/properties/float_property.hpp \
- /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_visual.hpp \
+ /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials/src/imu_visual.hpp \
  /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Ogre.h \
  /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAnimation.h \
  /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAnimationTrack.h \

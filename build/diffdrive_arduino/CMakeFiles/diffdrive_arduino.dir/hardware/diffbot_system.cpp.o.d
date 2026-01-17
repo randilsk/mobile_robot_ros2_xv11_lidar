@@ -1,7 +1,7 @@
 CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: \
- /home/ubuntu/dev_Ws/src/diffdrive_arduino/hardware/diffbot_system.cpp \
+ /home/ubuntu/dev_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/dev_Ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp \
+ /home/ubuntu/dev_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -335,8 +335,8 @@ CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: \
  /usr/include/c++/11/bits/unordered_set.h \
  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
- /home/ubuntu/dev_Ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/visibility_control.h \
- /home/ubuntu/dev_Ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp \
+ /home/ubuntu/dev_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/visibility_control.h \
+ /home/ubuntu/dev_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp \
  /usr/include/libserial/SerialPort.h \
  /usr/include/libserial/SerialPortConstants.h /usr/include/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios.h \
@@ -351,7 +351,7 @@ CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
  /usr/include/c++/11/iostream \
- /home/ubuntu/dev_Ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/wheel.hpp \
+ /home/ubuntu/dev_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/wheel.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

@@ -4,7 +4,7 @@
 # compile C with /usr/lib/ccache/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"serial_motor_demo_msgs\" -Dserial_motor_demo_msgs__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_generator_c -I/home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/ubuntu/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c -I/home/ubuntu/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra -std=gnu99
 

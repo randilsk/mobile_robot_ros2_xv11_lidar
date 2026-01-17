@@ -1,1 +1,2 @@
-/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rviz_plugin_tutorials/environment/ament_prefix_path.sh
+source;share/rviz_plugin_tutorials/environment/path.sh

@@ -152,13 +152,10 @@ colcon build
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
 
-## License
-
-[Add your license here]
 
 ## Author
 
-Randil SK
+randilsk
 
 ## Acknowledgments
 

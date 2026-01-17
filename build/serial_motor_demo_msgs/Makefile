@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/serial_motor_demo/serial_motor_demo_msgs
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/serial_motor_demo_msgs
+CMAKE_BINARY_DIR = /home/ubuntu/dev_ws/build/serial_motor_demo_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/CMakeFiles /home/ubuntu/dev_Ws/build/serial_motor_demo_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/dev_ws/build/serial_motor_demo_msgs/CMakeFiles /home/ubuntu/dev_ws/build/serial_motor_demo_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/dev_Ws/build/serial_motor_demo_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/dev_ws/build/serial_motor_demo_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ serial_motor_demo_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : serial_motor_demo_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_serial_motor_demo_msgs
+# Target rules for targets named ament_cmake_python_copy_serial_motor_demo_msgs
 
 # Build rule for target.
-ament_cmake_python_symlink_serial_motor_demo_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_serial_motor_demo_msgs
-.PHONY : ament_cmake_python_symlink_serial_motor_demo_msgs
+ament_cmake_python_copy_serial_motor_demo_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_serial_motor_demo_msgs
+.PHONY : ament_cmake_python_copy_serial_motor_demo_msgs
 
 # fast build rule for target.
-ament_cmake_python_symlink_serial_motor_demo_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/build
-.PHONY : ament_cmake_python_symlink_serial_motor_demo_msgs/fast
+ament_cmake_python_copy_serial_motor_demo_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_serial_motor_demo_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_serial_motor_demo_msgs.dir/build
+.PHONY : ament_cmake_python_copy_serial_motor_demo_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_serial_motor_demo_msgs_egg
@@ -1067,7 +1067,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_serial_motor_demo_msgs_egg"
-	@echo "... ament_cmake_python_symlink_serial_motor_demo_msgs"
+	@echo "... ament_cmake_python_copy_serial_motor_demo_msgs"
 	@echo "... serial_motor_demo_msgs"
 	@echo "... serial_motor_demo_msgs__cpp"
 	@echo "... serial_motor_demo_msgs__py"

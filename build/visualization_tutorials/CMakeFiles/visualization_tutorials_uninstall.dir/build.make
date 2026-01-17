@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/visualization_tutorials/visualization_tutorials
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_ws/src/visualization_tutorials/visualization_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/visualization_tutorials
+CMAKE_BINARY_DIR = /home/ubuntu/dev_ws/build/visualization_tutorials
 
 # Utility rule file for visualization_tutorials_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/visualization_tutorials_uninstall.dir/compiler_depend.make
 include CMakeFiles/visualization_tutorials_uninstall.dir/progress.make
 
 CMakeFiles/visualization_tutorials_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/dev_Ws/build/visualization_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/dev_ws/build/visualization_tutorials/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 visualization_tutorials_uninstall: CMakeFiles/visualization_tutorials_uninstall
 visualization_tutorials_uninstall: CMakeFiles/visualization_tutorials_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/visualization_tutorials_uninstall.dir/clean:
 .PHONY : CMakeFiles/visualization_tutorials_uninstall.dir/clean
 
 CMakeFiles/visualization_tutorials_uninstall.dir/depend:
-	cd /home/ubuntu/dev_Ws/build/visualization_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_Ws/src/visualization_tutorials/visualization_tutorials /home/ubuntu/dev_Ws/src/visualization_tutorials/visualization_tutorials /home/ubuntu/dev_Ws/build/visualization_tutorials /home/ubuntu/dev_Ws/build/visualization_tutorials /home/ubuntu/dev_Ws/build/visualization_tutorials/CMakeFiles/visualization_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/dev_ws/build/visualization_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_ws/src/visualization_tutorials/visualization_tutorials /home/ubuntu/dev_ws/src/visualization_tutorials/visualization_tutorials /home/ubuntu/dev_ws/build/visualization_tutorials /home/ubuntu/dev_ws/build/visualization_tutorials /home/ubuntu/dev_ws/build/visualization_tutorials/CMakeFiles/visualization_tutorials_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualization_tutorials_uninstall.dir/depend
 

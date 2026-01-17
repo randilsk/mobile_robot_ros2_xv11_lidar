@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials
+CMAKE_SOURCE_DIR = /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials
+CMAKE_BINARY_DIR = /home/ubuntu/dev_ws/build/rviz_plugin_tutorials
 
 # Utility rule file for rviz_plugin_tutorials_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/rviz_plugin_tutorials_autogen.dir/compiler_depend.make
 include CMakeFiles/rviz_plugin_tutorials_autogen.dir/progress.make
 
 CMakeFiles/rviz_plugin_tutorials_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rviz_plugin_tutorials"
-	/usr/bin/cmake -E cmake_autogen /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/dev_ws/build/rviz_plugin_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rviz_plugin_tutorials"
+	/usr/bin/cmake -E cmake_autogen /home/ubuntu/dev_ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_autogen.dir/AutogenInfo.json ""
 
 rviz_plugin_tutorials_autogen: CMakeFiles/rviz_plugin_tutorials_autogen
 rviz_plugin_tutorials_autogen: CMakeFiles/rviz_plugin_tutorials_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/rviz_plugin_tutorials_autogen.dir/clean:
 .PHONY : CMakeFiles/rviz_plugin_tutorials_autogen.dir/clean
 
 CMakeFiles/rviz_plugin_tutorials_autogen.dir/depend:
-	cd /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_Ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials /home/ubuntu/dev_Ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/dev_ws/build/rviz_plugin_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_ws/src/visualization_tutorials/rviz_plugin_tutorials /home/ubuntu/dev_ws/build/rviz_plugin_tutorials /home/ubuntu/dev_ws/build/rviz_plugin_tutorials /home/ubuntu/dev_ws/build/rviz_plugin_tutorials/CMakeFiles/rviz_plugin_tutorials_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rviz_plugin_tutorials_autogen.dir/depend
 

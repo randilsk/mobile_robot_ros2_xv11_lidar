@@ -1,7 +1,7 @@
 CMakeFiles/myviz.dir/myviz_autogen/mocs_compilation.cpp.o: \
- /home/ubuntu/dev_Ws/build/librviz_tutorial/myviz_autogen/mocs_compilation.cpp \
+ /home/ubuntu/dev_ws/build/librviz_tutorial/myviz_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/dev_Ws/build/librviz_tutorial/myviz_autogen/UVLADIE3JM/moc_myviz.cpp \
+ /home/ubuntu/dev_ws/build/librviz_tutorial/myviz_autogen/UVLADIE3JM/moc_myviz.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,7 +117,7 @@ CMakeFiles/myviz.dir/myviz_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/ubuntu/dev_Ws/build/librviz_tutorial/myviz_autogen/UVLADIE3JM/../../../../src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
+ /home/ubuntu/dev_ws/build/librviz_tutorial/myviz_autogen/UVLADIE3JM/../../../../src/visualization_tutorials/librviz_tutorial/src/myviz.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
