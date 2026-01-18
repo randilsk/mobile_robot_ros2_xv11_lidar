@@ -1,3 +1,4 @@
+/home/ubuntu/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
 /home/ubuntu/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
 /home/ubuntu/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml
 /home/ubuntu/dev_ws/install/my_bot/share/my_bot/config/main.rviz
